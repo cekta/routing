@@ -1,0 +1,23 @@
+{
+    "name": "cekta/routing",
+    "description": "",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Evgeniy Kuvshinov",
+            "email": "smpl@itmywork.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cekta\\Routing\\": "src/"
+        }
+    }
+}
