@@ -6,7 +6,7 @@ namespace Cekta\Routing;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
-interface RouteInterface
+interface ResultInterface
 {
     public function getHandler(): RequestHandlerInterface;
 

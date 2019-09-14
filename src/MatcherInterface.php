@@ -7,5 +7,5 @@ use Psr\Http\Message\ServerRequestInterface;
 
 interface MatcherInterface
 {
-    public function match(ServerRequestInterface $request): RouteInterface;
+    public function match(ServerRequestInterface $request): ResultInterface;
 }
